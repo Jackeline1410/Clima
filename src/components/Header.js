@@ -10,6 +10,7 @@ const Header = ({titulo}) => {
         </nav>
      );
 }
+
 Header.propTypes = {
     titulo: PropTypes.string.isRequired
 } 

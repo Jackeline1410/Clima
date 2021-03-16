@@ -50,7 +50,7 @@ const Formulario = ({busqueda, guardarBusqueda, guardarConsultar }) => {
             </div>
             <div className="input-field col s12">
                 <select
-                    name=""
+                    name="pais"
                     id="pais"
                     value={pais}
                     onChange={handleChange}
@@ -73,7 +73,6 @@ const Formulario = ({busqueda, guardarBusqueda, guardarConsultar }) => {
                     value="Buscar clima"
                     className="waves-effect waves-light btn-large btn-block yellow accent-4"
                 />
-
             </div>
         </form>
       );

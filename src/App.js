@@ -22,7 +22,7 @@ function App() {
         
         if(consultar){
         const appId = 'd361c449b75a87ac2bb87ef689fc5ce0';
-        const url =  `http://api.openweathermap.org/data/2.5/weather?q=${ciudad},${pais}&
+        const url =  `https://api.openweathermap.org/data/2.5/weather?q=${ciudad},${pais}&
         appid=${appId}`;
 
         const respuesta = await fetch(url);
@@ -59,7 +59,6 @@ function App() {
       <Header 
         titulo='Clima React App'
       /> 
-
       <div className="contenedor-form">
         <div className="container">
           <div className="row">
